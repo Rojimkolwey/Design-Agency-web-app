@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@100;200;300;400;500&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  margin: 0 140px;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  padding-top: 72px;
+  justify-content: space-between;
+}
+.logo {
+  font-family: Pacifico, sans-serif;
+}
+.links a {
+  text-decoration: none;
+  padding: 32px;
+  color: black;
+}
+.links a:hover {
+  color: #2864ff;
+}
+.pricing {
+  background-color: #2864ff;
+  padding: 13px 32px;
+  border-radius: 8px;
+}
+.pricing a {
+  color: white;
+  text-decoration: none;
+}
