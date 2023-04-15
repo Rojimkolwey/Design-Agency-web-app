@@ -6,6 +6,16 @@
 body {
   font-family: Poppins, sans-serif;
   margin: 0 140px;
+  background: radial-gradient(
+      45.87% 90.71% at 35.83% 53.61%,
+      #b1c1ea 0%,
+      rgba(177, 193, 234, 0) 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.Hero-section {
+  height: calc(100vh);
+  /* width: calc(100vw); */
 }
 .navbar {
   display: flex;
@@ -17,6 +27,7 @@ body {
   font-family: Pacifico, sans-serif;
 }
 .links a {
+  cursor: pointer;
   text-decoration: none;
   padding: 32px;
   color: black;
@@ -32,4 +43,34 @@ body {
 .pricing a {
   color: white;
   text-decoration: none;
+}
+
+.hero {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: row;
+}
+.hero-buttons {
+  margin-top: 32px;
+}
+.hero-buttons a:first-child {
+  background-color: #2864ff;
+  text-decoration: none;
+  color: white;
+  padding: 13px 26.5px;
+  border-radius: 8px;
+  margin-right: 2rem;
+}
+
+.hero-buttons a:last-child {
+  text-decoration: none;
+  color: black;
+  padding: 13px 26.5px;
+  border-radius: 8px;
+  border: 2px solid black;
+}
+
+.image-section {
+  width: 372px;
+  height: 465px;
 }
